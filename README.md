@@ -10,9 +10,9 @@
   - 安裝ollama + openwebui + qwen2 1.5b模型在本地端對話，works!
   - 安裝nvidia container toolkit啟動gtx1660s gpu加速，works!
   - 安裝[stable-difussion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) 經gpu加速文生圖，works!
-  - 跑最近很紅的deepseek 1.5b完全跑在gpu上，速度很快，7b是92％跑在gpu，慢了許多，都可以跑，works!
+  - 跑最近很紅的deepseek 1.5b完全跑在gpu上，速度很快，7b是92％跑在gpu，比較慢了，都可以跑，works!
 - build AOSP
-  - android-7.0.0_r1 + kylemanna/aosp:7.0-nougat 用volume的方式build，works!
+  - android-7.0.0_r1 + kylemanna/aosp:7.0-nougat 用volume的方式build，source 35GB，時間55分鐘，works!
   - emulator/trace boot flow，ongoing
 - 建立github跑自動化流程
   - [janjow-wang](https://github.com/janjow-wang)，works!
