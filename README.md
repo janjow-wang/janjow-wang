@@ -13,6 +13,8 @@
   - 安裝[stable-difussion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) 經gpu加速文生圖，works!
   - 跑最近很紅的deepseek 1.5b完全跑在gpu上，速度很快，7b是92％跑在gpu，比較慢了，都可以跑，works!
   - vscode + continue + 本地端deepseek，嘗試跑AI助手，works!
+  - 安裝ComfyUI學習另一種工作流的文生圖，works!
+  - 嘗試生成影片，ongoing
 - build AOSP
   - android-7.0.0_r1 + kylemanna/aosp:7.0-nougat 用volume的方式build，source 35GB，時間55分鐘，works!
   - emulator aosp_x86_64-eng，手機畫面出現，works!
