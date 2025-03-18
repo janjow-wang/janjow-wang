@@ -5,6 +5,7 @@
   - 在職沒機會碰到，在YT的影片看uart，rs232，i2c，spi學習基礎概念
   - 買一個簡易USB LA可以觀察到arduino經UART打出來"a"的波形0x61 (01100001)，在LA的軟體上，works!
   - 又買了一個nodemcu-esp32s + ch340 usb_ttl線，可以跑example裡的wifiscan，com7裡面成功印出附近的SSID，works!
+    - 原來arduiono ide裡面的serial monitor就能看到輸出不用另外接線用另一個com觀察，但是要把hp sure sense例外處理不然打不開serial monitor會一直報錯誤!
   - 還買了一個mp3模組，ongoing
 - 在ubuntu玩魔獸世界
   - wine裝好就能跑正式版wow，fps超過60，works!
