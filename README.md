@@ -4,6 +4,8 @@
   - 玩了一下arduino，跑看看LED，蜂鳴器，控制外面的東西滿有趣的
   - 在職沒機會碰到，在YT的影片看uart，rs232，i2c，spi學習基礎概念
   - 買一個簡易USB LA可以觀察到arduino經UART打出來"a"的波形0x61 (01100001)，在LA的軟體上，works!
+  - 又買了一個nodemcu-esp32s + ch340 usb_ttl線，可以跑example裡的wifiscan，com7裡面成功印出附近的SSID，works!
+  - 還買了一個mp3模組，ongoing
 - 在ubuntu玩魔獸世界
   - wine裝好就能跑正式版wow，fps超過60，works!
   - 安裝docker跑[azerothcore](https://github.com/azerothcore/azerothcore-wotlk)本地server，參考[najoast](https://github.com/najoast) 搭配3.3.5 client，works!
