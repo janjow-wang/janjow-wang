@@ -10,7 +10,8 @@
     - idf build一個hello world，log可以看到更多訊息，改動freertos\app_startup.c可以在app_main之前印字出來，這裡應該就是交界點。
     - 這裡都會把freertos每次都重build(如果有改)跟之前不太一樣，前公司會預先作好幾種配置的kernel做成library，避免每個人用的不一樣，
       google了一下，esp32的freertos也可以做類似的設定，有機會再試。
-    - boot、ldr、heap、bin、gdb、crash之後的反查，有機會再試。
+    - boot、ldr、heap、bin、gdb，有機會再試。
+    - crash：故意寫一個memset 0，crash後自動印出最後三層的trace，檔名行數函式名都有，連objdump都不用手動下，好人性!
   - 還買了一個mp3模組，ongoing
 - 在ubuntu玩魔獸世界
   - wine裝好就能跑正式版wow，fps超過60，works!
