@@ -12,6 +12,7 @@
       google了一下，esp32的freertos也可以做類似的設定，有機會再試。
     - boot、ldr、heap、bin、gdb，有機會再試。
     - crash：故意寫一個memset 0，crash後自動印出最後三層的trace，檔名行數函式名都有，連objdump都不用手動下，好人性!
+    - idf的qemu裝好後，可以在qemu裡面一步一步跑，下次來試gdb
   - 還買了一個mp3模組，ongoing
 - 在ubuntu玩魔獸世界
   - wine裝好就能跑正式版wow，fps超過60，works!
@@ -25,7 +26,7 @@
   - vscode + continue + 本地端deepseek，嘗試跑AI助手，works!
   - 安裝ComfyUI學習另一種工作流的文生圖，works!
   - 嘗試生成影片，ongoing
-  - 用anythingllm嘗試做rag，ongoing
+  - 用anythingllm做rag，輸入自己的履歷表txt檔可以檢索出資訊，有點google notebooklm的感覺。pdf似乎要找繁中友好的embedder，不然都亂碼
 - build AOSP
   - android-7.0.0_r1 + kylemanna/aosp:7.0-nougat 用volume的方式build，source 35GB，時間55分鐘，works!
   - emulator aosp_x86_64-eng，手機畫面出現，works!
