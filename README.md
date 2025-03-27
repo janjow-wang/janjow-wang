@@ -1,37 +1,9 @@
-# 待業期間做一些之前想做但沒做的事，持續加溫，避免冷卻
-晚開始也是開始，keep walking
-- 學習之前沒碰的東西
-  - 玩了一下arduino，跑看看LED，蜂鳴器，控制外面的東西滿有趣的
-  - 在職沒機會碰到，在YT的影片看uart，rs232，i2c，spi學習基礎概念
-  - 買一個簡易USB LA可以觀察到arduino經UART打出來"a"的波形0x61 (01100001)，在LA的軟體上，works!
-  - 又買了一個nodemcu-esp32s + ch340 usb_ttl線，可以跑example裡的wifiscan，com7裡面成功印出附近的SSID，works!
-    - 原來arduiono ide裡面的serial monitor就能看到輸出不用另外接線用另一個com觀察，但是要把hp sure sense例外處理不然打不開serial monitor會一直報錯誤!
-    - 安裝vscode + idf，works!
-    - idf build一個hello world，log可以看到更多訊息，改動freertos\app_startup.c可以在app_main之前印字出來，這裡應該就是交界點。
-    - 這裡都會把freertos每次都重build(如果有改)跟之前不太一樣，前公司會預先作好幾種配置的kernel做成library，避免每個人用的不一樣，
-      google了一下，esp32的freertos也可以做類似的設定，有機會再試。
-    - boot、ldr、heap、bin、gdb，有機會再試。
-    - crash：故意寫一個memset 0，crash後自動印出最後三層的trace，檔名行數函式名都有，連objdump都不用手動下，好人性!
-    - idf的qemu裝好後，可以在qemu裡面一步一步跑，下次來試gdb
-  - 還買了一個mp3模組，ongoing
-- 在ubuntu玩魔獸世界
-  - wine裝好就能跑正式版wow，fps超過60，works!
-  - 安裝docker跑[azerothcore](https://github.com/azerothcore/azerothcore-wotlk)本地server，參考[najoast](https://github.com/najoast) 搭配3.3.5 client，works!
-  - 重新build一個包含playerbot的server，works!
-- 在本地跑AI功能
-  - 安裝ollama + openwebui + qwen2 1.5b模型在本地端對話，works!
-  - 安裝nvidia container toolkit啟動gtx1660s gpu加速，works!
-  - 安裝[stable-difussion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) 經gpu加速文生圖，works!
-  - 跑最近很紅的deepseek 1.5b完全跑在gpu上，速度很快，7b是92％跑在gpu，比較慢了，都可以跑，works!
-  - vscode + continue + 本地端deepseek，嘗試跑AI助手，works!
-  - 安裝ComfyUI學習另一種工作流的文生圖，works!
-  - 嘗試生成影片，ongoing
-  - 用anythingllm做rag，輸入自己的履歷表txt檔可以檢索出資訊，有點google notebooklm的感覺。pdf似乎要找繁中友好的embedder，不然都亂碼
-- build AOSP
-  - android-7.0.0_r1 + kylemanna/aosp:7.0-nougat 用volume的方式build，source 35GB，時間55分鐘，works!
-  - emulator aosp_x86_64-eng，手機畫面出現，works!
-- 建立github跑自動化流程
-  - [janjow-wang](https://github.com/janjow-wang)，works!
-  - [test](https://github.com/janjow-wang/test) 一個簡單的sample code + unity frame work + github actions 在每次的push自動跑unit test與build code flow，works!
-  - [pages](https://janjow-wang.github.io/pages) github的hello world網頁入口，works!
-  - jenkins，ongoing
+# 我的待業期間活動
+
+以下是我在待業期間進行的一些主要活動：
+
+*   [待業期間的學習與探索](things_i_wanted_to_do.md)
+*   [在 Ubuntu 上玩魔獸世界](wow_on_ubuntu.md)
+*   [本地 AI 功能實驗](local_ai_experiments.md)
+*   [Android 開源專案 (AOSP) 編譯](build_aosp.md)
+*   [建立 GitHub 自動化流程](github_automation.md)
