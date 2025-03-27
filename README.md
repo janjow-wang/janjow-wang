@@ -5,3 +5,4 @@
 *   [本地 AI 功能實驗](local_ai_experiments.md)
 *   [Android 開源專案 (AOSP) 編譯](build_aosp.md)
 *   [建立 GitHub 自動化流程](github_automation.md)
+*   [研讀linux DRM driver](study_drm.md)
