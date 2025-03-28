@@ -1,4 +1,5 @@
-# 待業期間進行的一些主要活動：
+## 待業期間做一些之前想做但沒做的事，持續加溫，避免冷卻
+晚開始也是開始，keep walking
 
 *   [待業期間的學習與探索](things_i_wanted_to_do.md)
 *   [在 Ubuntu 上玩魔獸世界](wow_on_ubuntu.md)
