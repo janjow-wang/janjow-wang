@@ -4,7 +4,10 @@
 - [屏幕显示(DRM)介绍](https://doc.embedfire.com/linux/rk356x/linux_base/zh/latest/linux_app/drm/drm.html)
 - [The DRM/KMS subsystem from a newbie’s point of view](https://events.static.linuxfound.org/sites/events/files/slides/brezillon-drm-kms.pdf)
 - [linux DRM source code](https://github.com/torvalds/linux/tree/master/drivers/gpu/drm)
-- [RK3399 探索之旅 / Display 子系统 / 基础概念](https://blog.csdn.net/M120674/article/details/123324268) 看起來可以跟kernel source裡面的code互相參考，再花時間回來看
+- [MediaTek IoT Yocto Developer Guide](https://mediatek.gitlab.io/aiot/doc/aiot-dev-guide/master/index.html)很多東西可以看，先筆記一下
+- [RK3399 探索之旅 / Display 子系统 / 基础概念](https://blog.csdn.net/M120674/article/details/123324268)
+  看起來可以跟kernel source裡面的code互相參考，再花時間回來看
 - chatgpt真是幫手，原來soc廠商不太需要在意libdrm module，主要是要專注在kernel的drm driver。
   請他寫一個最簡單使用libdrm的app sample code，再問他soc廠商至少該實做那些ioctl來滿足上面的sample，gpt都給出建議，
-  一開始先有個會動的，再慢慢把其他ioctl補上，應該也是一個攻略的方法，他還幫我產出一個125行的kernel drm driver code! 希望之後有機會深入
+  一開始先有個會動的，再慢慢把其他ioctl補上，應該也是一個攻略的方法，他還幫我產出一個125行的kernel drm driver sample code! 有機會再深入
+- user:app + libv4l2 + libdrm -> kernel:v4l2(video decoder driver) + drm/kms(display driver) 目前讀到這
