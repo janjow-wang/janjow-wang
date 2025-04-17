@@ -8,3 +8,6 @@
 -   嘗試生成影片，ongoing
 -   用anythingllm做rag，輸入自己的履歷表txt檔可以檢索出資訊，有點google notebooklm的感覺。pdf似乎要找繁中友好的embedder，後來用qwen2.5:7b
 -   openmanus裝了，只用CLI mode，每次都要跑完20輪，超級慢。qwen2.5-coder:7b用起來很怪，用14b過程正常一點但是最後結果沒產出，要再研究一下
+-   open-webui + ollama + mcpo
+    - 跑mcp_server_time，tool有顯示有拿到正確日期時間，但是ui卻顯示不出來或是錯的；PC上有成功一次，要再多跑幾次看看
+    - 跑filesystem也只成功一次，成功mkdir，也寫出txt file，但是就一次
