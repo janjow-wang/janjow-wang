@@ -9,3 +9,4 @@
 *   [研讀linux DRM driver](study_drm.md)
 *   [HDLC練習](https://github.com/janjow-wang/hdlc_test)
 *   [study mqtt](study_mqtt.md)
+*   [study agile](study_agile.md)
