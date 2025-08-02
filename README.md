@@ -11,4 +11,5 @@
 *   [study mqtt](study_mqtt.md)
 *   [study agile](study_agile.md)
 *   [小LCD+溫溼度sensor](ssd1306_dht11.md)
-*   [Q4OS vm 安裝](q4os_doc.md）
+*   [Q4OS vm 安裝](q4os_doc.md)
+*
