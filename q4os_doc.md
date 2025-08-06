@@ -18,6 +18,8 @@ sudo apt install docker.io
 sudo usermod -aG docker user
 sudo reboot
 
+sudo apt install vim
+
 sudo apt install samba
 sudo nano /etc/samba/smb.conf
 edit home block
@@ -41,7 +43,7 @@ sudo reboot
 
 nano .bashrc
 alias ks='kscope CSCOPE.PROJ ../.$(basename "$PWD")_prj &'
-alias vvv='vncserver :1 -localhost no -geometry 1900x980 -depth 16'
+alias vvv='vncserver :1 -localhost no -geometry 1900x970 -depth 16'
 export PATH=~/bin:/usr/local/sbin:/usr/sbin:$PATH
 
 ### note:
